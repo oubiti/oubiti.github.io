@@ -50,7 +50,7 @@ ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get
 # analytics
 ## Google Tag Manager
 gtm:
-  id: GTM-KBC9BRSQ
+  id: G-CGDCSJEKDW
 
 ## google optimize
 go:
