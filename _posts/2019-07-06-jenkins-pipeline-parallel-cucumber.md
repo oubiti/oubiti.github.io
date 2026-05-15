@@ -1,7 +1,7 @@
 ---
 title: 'Jenkins Pipeline &#038; Parallel Cucumber'
 date: 2019-07-06T09:07:00+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: 'Jenkins Pipeline &#038; Parallel Cucumber'
@@ -12,7 +12,6 @@ enclosure:
     0
     video/mp4
     
-icon: /static/assets/img/blog/pipeline.png
 keywords: "ci,jenkins,pipelines,parallel,tests"
 categories:
   - Development

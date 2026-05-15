@@ -1,13 +1,12 @@
 ---
 title: DecoSnapp
 date: 2018-10-25T12:57:37+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: DecoSnapp (Augmented Reality app)
 permalink: /decosnapp/
 keywords: "art,ar,decoration,unity3d,app"
-icon: /static/assets/img/blog/decosnapp.png
 enclosure:
   - |
     /static/assets/img/blog/decosnapp.mp4

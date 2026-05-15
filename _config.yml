@@ -1,13 +1,9 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Oubiti
-description: > # this means to ignore newlines until "baseurl:"
-  From Oubiti we are very happy to start this new website, from here you can see all our developments in web development and mobile applications.
-  Wait a minute, why am I speaking in the plural? I better introduce myself. My name is Óscar, I have created the Oubiti brand to include all those projects and ideas that I published.
-  I love the world of Augmented Reality (here a link of my first steps in 2006), I also like to travel and photography so I’m working on an app to travelers, follow the page and soon I will publish it!
-  Meanwhile, you want to try a game as a hobby? It’s called HurryMind!  is still in development but you can already try the beta if you have an Android or iPhone.
-  If you want to know more about me, contact me in Linkedin.
+title: oubiti.com
+description: > # this means to ignore newlines until "keywords:"
+  Hello everyone! I'm Oscar Barrios, and I'm thrilled to introduce you to oubiti.com, my new space for exploring the intersection of Testing and DevOps. As a QE Architect and a big fan of Agile methodologies and DevOps culture , I've spent years embracing new technologies and building robust software architectures across companies like SUSE , King Activision Blizzard , and Telefónica Digital. My experience in scaling testing, developing CI/CD pipelines , and driving quality standards  has shown me the power of bringing automation, tools, and processes together. From building AI-powered PR analysis tools and implementing CI-integrated synthetic monitoring , to mentoring the next generation of engineers , I'm passionate about sharing ideas related to DevOps, Automation, and QA. At oubiti.com, I plan to share insights, articles, and code on topics like Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), smart test selection, and the latest tools in the TestOps landscape—including those from my current tech stack like Terraform, Prometheus, Grafana, Python, Go, Selenium, and Ollama. Join me as we explore how to achieve Quality on Autopilot!
 keywords: blog, oscar, barrios, qa, automation, testing, devops, development, selenium
 #baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 # url: https://srbarrios.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -25,18 +21,17 @@ author:  # change following line to your infomation.
   gitlab_username: oscar.barrios  # Leave blank if you don't have now
   #twitter_username:   # Leave blank if you don't have now
   email: oscarbarrios@gmail.com  # Leave blank if you don't have now
-  cv: /static/assets/cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: /static/assets/cv.html  # An online CV can be printed as PDF
   matrix: srbarrios
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: fa-linux
+    - name: fa-brands fa-linux
     - name: icon-ruby
   skill_icon2:
     - name: icon-csharp
     - name: icon-java
   desc: >
-    Software Engineer skilled in Quality Process and Automation, with expertise as a Backend Developer.
-    <br>Big fan of Agile methodologies & DevOps culture
+    I am a QE Architect and Expert Software Engineer with 20 years of experience evolving the discipline of Test Automation. From my backend development roots at INRIA and King to my current role at SUSE, I have treated quality as a core engineering and observability challenge.<br>
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -45,12 +40,12 @@ disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your c
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: G-CGDCSJEKDW #UA-160627432-1
+  id: G-YGDFX8WY5R
 
 # analytics
 ## Google Tag Manager
 gtm:
-  id: G-CGDCSJEKDW
+  id: G-YGDFX8WY5R
 
 ## google optimize
 go:
@@ -70,6 +65,9 @@ blog_carousel: on  # blog page carousel switch
 # scss
 sass:
   style: compressed
+
+include:
+  - .well-known
 
 # Build settings
 encoding: utf-8

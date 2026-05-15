@@ -1,12 +1,11 @@
 ---
 title: Home Hosting
 date: 2018-10-30T19:38:44+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: Tutorial to setup your own home hosting
 permalink: /home-hosting/
-icon: /static/assets/img/blog/home_hosting.png
 keywords: "hosting,router"
 categories:
   - Life

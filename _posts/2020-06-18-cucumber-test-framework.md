@@ -1,12 +1,11 @@
 ---
 title: 'Starter skeleton of a Cucumber Test Framework'
 date: 2020-05-18T09:07:00+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: 'Starter skeleton of Cucumber a Test Framework'
 permalink: /cucumber-test-framework/    
-icon: /static/assets/img/blog/test_framework.png
 keywords: "test,framework,ruby,cucumber,capybara"
 categories:
   - Development

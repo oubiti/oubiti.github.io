@@ -1,12 +1,11 @@
 ---
 title: MiPintura.com
 date: 2018-10-25T13:10:55+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: Online shop made with Prestashop
 permalink: /mipintura-com/
-icon: /static/assets/img/blog/mi_pintura.png
 keywords: "art,shop,prestashop"
 categories:
   - Life

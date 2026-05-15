@@ -1,12 +1,11 @@
 ---
 title: 'How to develop End to End tests for Uyuni'
 date: 2020-12-21T20:07:00+00:00
-author: Oubiti
+author: Oscar Barrios
 layout: post
 comments: true
 desc: 'Starter skeleton of Cucumber a Test Framework'
 permalink: /uyuni-test-development/    
-icon: /static/assets/img/blog/test_development.png
 keywords: "test,development,framework,ruby,cucumber,capybara,chromedriver"
 categories:
   - Development
