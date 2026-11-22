@@ -1,33 +1,15 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html lang="en">
-
-    {% if page.title != 'index' %}
-        {% include head.html %}
-    {% else %}
-        {% include index_head.html %}
-    {% endif %}
-
-<body id="page-top" class="landing-page">
-
-    {% if page.title != 'index' %}
-        {% include blog_header.html %}
-    {% endif %}
-
-    {{ content }}
-
-    {% if page.title != 'index' %}
-        {% include foot.html %}
-    {% else %}
-        {% include index_foot.html %}
-    {% endif %}
-
+<head>
+  <meta charset="utf-8">
+  {%- assign target = page.url | replace: 'index.html', '' | prepend: 'https://oscarbarrios.tech' %}
+  <title>Moved to oscarbarrios.tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ target }}">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+  <script>window.location.replace("{{ target }}" + window.location.search + window.location.hash);</script>
+</head>
+<body>
+  <p>This page has moved to <a href="{{ target }}">{{ target }}</a>.</p>
 </body>
-<!-- Google Tag Manager (noscript) -->
-{% if site.gtm %}
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm.id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-{% endif %}
 </html>

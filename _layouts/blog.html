@@ -1,4 +1,15 @@
----
-layout: default
----
-    {{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {%- assign target = page.url | replace: 'index.html', '' | prepend: 'https://oscarbarrios.tech' %}
+  <title>Moved to oscarbarrios.tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ target }}">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+  <script>window.location.replace("{{ target }}" + window.location.search + window.location.hash);</script>
+</head>
+<body>
+  <p>This page has moved to <a href="{{ target }}">{{ target }}</a>.</p>
+</body>
+</html>
